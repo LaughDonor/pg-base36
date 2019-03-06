@@ -22,7 +22,7 @@ CREATE TYPE base36 (
 	LIKE           = integer,
 	CATEGORY       = 'N'
 );
-COMMENT ON TYPE base36 IS 'int written in base36: [0-9a-z]+';
+COMMENT ON TYPE base36 IS 'int written in base36: [0-9A-Z]+';
 
 CREATE FUNCTION base36(text)
 RETURNS base36

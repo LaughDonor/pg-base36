@@ -22,7 +22,7 @@ CREATE TYPE bigbase36 (
 	LIKE           = bigint,
 	CATEGORY       = 'N'
 );
-COMMENT ON TYPE bigbase36 IS 'bigint written in bigbase36: [0-9a-z]+';
+COMMENT ON TYPE bigbase36 IS 'bigint written in bigbase36: [0-9A-Z]+';
 
 CREATE FUNCTION bigbase36(text)
 RETURNS bigbase36
